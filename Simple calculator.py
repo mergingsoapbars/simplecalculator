@@ -35,7 +35,6 @@ y = (scrn_hght / 2) - (app_hght / 2)
 root.title("Simple calculator")
 root.geometry(f"{app_wdth}x{app_hght}+{int(x)}+{int(y)}")
 root.configure(bg='#86BEAF')
-root.iconbitmap("icon.ico")
 
 
 # In[5]:
